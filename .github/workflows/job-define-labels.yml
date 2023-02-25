@@ -4,4 +4,4 @@ jobs:
   define-labels:
     runs-on: ubuntu-latest
     steps:
-      - uses: srvaroa/labeler@v0.9
+      - uses: srvaroa/labeler@v1.3
