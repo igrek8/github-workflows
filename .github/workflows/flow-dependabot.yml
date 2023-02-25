@@ -1,0 +1,11 @@
+name: flow-dependabot
+
+on: pull_request_target
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  dependabot-auto-merge:
+    uses: ./.github/workflows/job-dependabot-auto-merge.yml
