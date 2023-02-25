@@ -1,0 +1,11 @@
+name: flow-stage
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  define-labels:
+    uses: ./.github/workflows/job-define-labels
+  format:
+    uses: ./.github/workflows/job-format

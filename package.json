@@ -1,0 +1,11 @@
+{
+  "name": "github-workflows",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --check \"**/*\""
+  },
+  "devDependencies": {
+    "prettier": "2.8.4"
+  }
+}
