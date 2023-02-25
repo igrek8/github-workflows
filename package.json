@@ -1,11 +1,17 @@
 {
-  "name": "github-workflows",
+  "name": "@igrek8/github-workflows",
   "version": "1.0.0",
   "license": "MIT",
+  "prettier": "@igrek8/prettier-config",
+  "release": {
+    "extends": "@igrek8/semantic-release-config"
+  },
   "scripts": {
     "format": "prettier --check \"**/*\""
   },
   "devDependencies": {
+    "@igrek8/prettier-config": "1.0.1",
+    "@igrek8/semantic-release-config": "1.1.0",
     "prettier": "2.8.4"
   }
 }

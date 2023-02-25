@@ -3,9 +3,5 @@ name: flow-pr
 on: pull_request
 
 jobs:
-  check-title:
-    uses: ./.github/workflows/job-check-title.yml
-  add-labels:
-    uses: ./.github/workflows/job-add-labels.yml
   format:
     uses: ./.github/workflows/job-format.yml
