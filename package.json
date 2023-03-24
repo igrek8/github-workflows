@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "@igrek8/prettier": "1.0.1",
-    "prettier": "2.8.6"
+    "prettier": "2.8.7"
   }
 }
