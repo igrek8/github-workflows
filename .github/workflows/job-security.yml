@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: spectralops/spectral-github-action@v2
+      - uses: spectralops/spectral-github-action@v4
         with:
           spectral-dsn: ${{ env.SPECTRAL_DSN }}
           spectral-args: scan --fail-on-error --github-format --include-tags base,audit,iac
