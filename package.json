@@ -2,12 +2,12 @@
   "name": "@igrek8/github-workflows",
   "version": "1.0.0",
   "license": "MIT",
-  "prettier": "@igrek8/prettier",
+  "prettier": "@igrek8/prettier-config",
   "scripts": {
     "format": "prettier --check \"**/*\""
   },
   "devDependencies": {
-    "@igrek8/prettier": "1.0.1",
+    "@igrek8/prettier-config": "1.0.11",
     "prettier": "2.8.8"
   }
 }
